@@ -3,4 +3,6 @@ project(AoAPC)
 
 set(CMAKE_CXX_STANDARD 11)
 
+add_subdirectory(ch1)
+
 add_executable(AoAPC main.cpp)
